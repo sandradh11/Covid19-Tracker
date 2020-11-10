@@ -30,7 +30,7 @@ function InfoBox({ title, cases, total, onClick, active }) {
           {title}
         </Typography>
         <Typography color="textPrimary" variant="h2" gutterBottom>
-          +{numeral(cases).format("0,0a")}
+          +{numeral(cases).format("0,0")}
         </Typography>
         <Typography color="textSecondary" variant="h5" gutterBottom>
           +{numeral(total).format("0,0a")} total
