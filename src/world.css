@@ -1,0 +1,41 @@
+.world {
+  height: 500px;
+  background-color: honeydew;
+  padding: 17px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.world .leaflet-container {
+  height: 100%;
+}
+
+.country-Flag img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.country-Flag {
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.popUp__container {
+  width: 150px;
+}
+
+.country-Cases,
+.country-Recovered,
+.country-Deaths {
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.country-Name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 3px;
+  color: #555555;
+}

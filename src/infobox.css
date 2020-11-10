@@ -1,0 +1,13 @@
+.infobox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infobox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infobox--selected {
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 10px 10px 10px 10px;
+}
